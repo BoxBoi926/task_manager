@@ -1,7 +1,12 @@
 package com.example.taskmanager.entity;
 
 public class Task {
-    private static int taskId;
-    private static String task;
-    private static Prioity prioity;
+    private int taskId;
+    private String task;
+    private Priority priority;
+
+    public Task(String task, Priority priority){
+        this.task = task;
+        this.priority = priority;
+    }
 }
