@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class Task {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int taskId;
+    private Long taskId;
     private String task;
 
     @Enumerated(EnumType.STRING)
