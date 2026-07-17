@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Compiled files
+*.class
+
+# Logs
+*.log
+
+# Local configuration
+application-local.properties
